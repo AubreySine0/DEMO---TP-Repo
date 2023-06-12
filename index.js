@@ -16,9 +16,9 @@ delete payloadJSON["update_time"];
 
 const segmentAuthToken = core.getInput('Segment-Token');
 const trackingPlanType = core.getInput('Tracking-Plan-Type');
-let payloadURL = 'https://platform.segmentapis.com/v1beta/workspaces/protocols-diffs/tracking-plans/rs_2R7oWFgqh1kmzrmvFfPES6OlvSC';
+let payloadURL = 'https://platform.segmentapis.com/v1beta/workspaces/aubrey-s/tracking-plans/rs_2R7oWFgqh1kmzrmvFfPES6OlvSC';
 if (trackingPlanType == 'QA'){
-    payloadURL = 'https://platform.segmentapis.com/v1beta/workspaces/protocols-diffs/tracking-plans/rs_2R7oXdlWuwB6fIgODWQaTANBtwT';   
+    payloadURL = 'https://platform.segmentapis.com/v1beta/workspaces/aubrey-s/tracking-plans/rs_2R7oXdlWuwB6fIgODWQaTANBtwT';   
 }
 let bearerToken = 'Bearer ' + segmentAuthToken;
     
