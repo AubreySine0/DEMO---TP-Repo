@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/AubreySine0/DEMO---TP-Repo#readme",
   "devDependencies": {
-    "typewriter": "^7.4.1"
+    "typewriter": "^9.0.0"
   },
   "dependencies": {
     "@actions/core": "^1.7.0",
