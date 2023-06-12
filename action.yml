@@ -10,5 +10,5 @@ inputs:
     required: true
     default: 'Input Required Here'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
